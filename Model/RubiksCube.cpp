@@ -98,7 +98,7 @@ RubiksCube &RubiksCube::move(MOVE ind) {
             return this->f2();
         case MOVE::B:
             return this->b();
-        case MOVE::B1: // Corrected from 1 to B1
+        case MOVE::B1: 
             return this->bPrime();
         case MOVE::B2:
             return this->b2();
